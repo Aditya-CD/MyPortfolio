@@ -1,46 +1,49 @@
-Hi, I’m Aditya Gupta 👋
+# 👋 Hi, I'm Aditya Gupta  
 
-I’m a AI/ML Enthusiast & Frontend Web Developer passionate about building interactive web applications and exploring intelligent solutions with machine learning. I love combining creativity with technology to design sleek user interfaces and integrate smart features powered by AI.
+🚀 **Frontend Web Developer | AI/ML Enthusiast | Problem Solver**  
 
-💻 Tech Stack
-🌐 Frontend Development
+I love building **modern web applications** with React & Tailwind and exploring **Artificial Intelligence & Machine Learning** to solve real-world problems. My work combines **beautiful UI/UX** with **intelligent backends** powered by AI.  
 
-React.js ⚛️
+---
 
-Tailwind CSS 🎨
+## 🛠 Tech Stack  
 
-Vite ⚡
+### 🌐 Frontend Development  
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)  
+![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)  
+![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white)  
 
-JavaScript / TypeScript
+### 🤖 AI & Machine Learning  
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)  
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white)  
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white)  
+![NumPy](https://img.shields.io/badge/-NumPy-013243?logo=numpy&logoColor=white)  
+![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white)  
 
-🤖 AI / ML
+---
 
-Python 🐍
+## 🔥 What I Do  
+- 🌐 Build **modern, responsive web apps** with React & Tailwind  
+- 🤖 Create **AI/ML-powered applications** (chatbots, face recognition, smart tools)  
+- 📊 Work on **data-driven projects** with visualization & analytics  
+- ⚡ Integrate **LLMs & APIs** (Gemini, Mistral, etc.) into real-world solutions  
 
-OpenCV, NumPy, Pandas
+---
 
-TensorFlow, Scikit-learn
+## 📌 Featured Projects  
 
-Generative AI (LLMs, APIs like Gemini, Mistral)
+- ✈️ **TripGenie** – AI-powered travel planner (React + Mistral API)  
+- 🤖 **AI Chatbot** – Smart conversational assistant with Gemini API  
+- 📝 **Smart Calculator** – Math notes & equation recognition with LaTeX rendering  
+- 🗳 **Smart Voting System** – Secure digital voting with Python & GUI  
 
-🔥 What I Build
+---
 
-⚡ Modern Web Apps with responsive UI/UX
+## 🌐 Connect With Me  
 
-🤖 AI/ML Projects like chatbots, face recognition, and smart calculators
+📩 [Email](mailto:aditya3102004@gmail.com) • 💼 [LinkedIn](https://linkedin.com/in/aditya03) • 📷 [Instagram](https://instagram.com/adityag_03)  
 
-📊 Data-driven Applications with visualization and insights
+---
 
-🌐 Full-Stack Solutions integrating APIs and databases
-
-📌 Featured Projects
-
-TripGenie – AI-powered travel planner with React & Mistral API
-
-AI Chatbot – Intelligent assistant built with Gemini API
-
-Smart Calculator – Equation recognition & LaTeX rendering
-
-Smart Voting System – Secure voting solution with Python
-
-✨ Always learning. Always building. Always innovating.
+✨ *Always learning. Always building. Always innovating.*  
