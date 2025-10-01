@@ -1,5 +1,3 @@
-🚀 About Me
-
 Hi, I’m Aditya Gupta 👋
 
 I’m a AI/ML Enthusiast & Frontend Web Developer passionate about building interactive web applications and exploring intelligent solutions with machine learning. I love combining creativity with technology to design sleek user interfaces and integrate smart features powered by AI.
