@@ -9,7 +9,7 @@ import ContactSection from "../homepage/contact";
 // 💡 Move the dynamic imports here where 'ssr: false' is allowed
 const HeroSection = dynamic(() => import("../homepage/hero-section"), { 
     ssr: false,
-    loading: () => <div className="h-[75vh] w-full flex items-center justify-center text-white">Loading Hero...</div>
+    loading: () => <div className="h-[75vh] w-full flex items-center justify-center text-white">Loading HomePage...</div>
 });
 
 const Education = dynamic(() => import("../homepage/education"), { 
