@@ -2,10 +2,20 @@
 
 import { useEffect } from 'react';
 
-const GlowCard = ({ children , identifier}) => {
+const GlowCard = ({ children, identifier }) => {
   useEffect(() => {
+    // Safety check - only run in browser
+    if (typeof window === 'undefined' || typeof document === 'undefined') {
+      return;
+    }
+
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
+
+    // If elements don't exist, exit early
+    if (!CONTAINER || !CARDS || CARDS.length === 0) {
+      return;
+    }
 
     const CONFIG = {
       proximity: 40,
@@ -17,6 +27,8 @@ const GlowCard = ({ children , identifier}) => {
     };
 
     const UPDATE = (event) => {
+      if (!event) return;
+
       for (const CARD of CARDS) {
         const CARD_BOUNDS = CARD.getBoundingClientRect();
 
@@ -60,7 +72,6 @@ const GlowCard = ({ children , identifier}) => {
     };
 
     RESTYLE();
-    UPDATE();
 
     // Cleanup event listener
     return () => {
