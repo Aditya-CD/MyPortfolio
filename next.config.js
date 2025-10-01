@@ -23,13 +23,4 @@ module.exports = {
       },
     ],
   },
-  experimental: {
-    serverActions: {
-      bodySizeLimit: '2mb',
-    },
-  },
-  // Disable telemetry during build
-  telemetry: {
-    disabled: true,
-  },
 }
