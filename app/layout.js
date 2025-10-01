@@ -1,6 +1,6 @@
 import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
-import { ToastContainer } from "react-toastify";
+import dynamic from "next/dynamic";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/footer";
 import ScrollToTop from "./components/helper/scroll-to-top";
@@ -9,6 +9,12 @@ import "./css/card.scss";
 import "./css/globals.scss";
 
 const inter = Inter({ subsets: ["latin"] });
+
+// Load ToastContainer only on client side
+const ToastContainer = dynamic(
+  () => import("react-toastify").then((mod) => mod.ToastContainer),
+  { ssr: false }
+);
 
 export const metadata = {
   title: "Aditya Gupta Portfolio",
